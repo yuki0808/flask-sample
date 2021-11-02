@@ -1,7 +1,7 @@
 from flask import Flask
 import logging
 import logging.handlers
-from pythonjsonlogger import jsonlogge
+from pythonjsonlogger import jsonlogger
 from ddtrace import patch_all; patch_all(logging=True)
 from ddtrace import tracer
 
